@@ -4,7 +4,9 @@ if (document.body) process();
 else document.addEventListener('DOMContentLoaded', process);
 
 function process() {
-    alert("navigation detected")
+    if (location.pathname === '/watch') {
+        alert('Watch page!');
+    }
 }
 
 // NOTE: working but you have to do browser reload once on youtube before the chrome extension detects navigation changes
@@ -13,4 +15,3 @@ function process() {
     // this did not seem like it worked
 // or latest solution: https://stackoverflow.com/questions/34077641/how-to-detect-page-navigation-on-youtube-and-modify-its-appearance-seamlessly
     // looks like this worked except that we need browser refresh atleast once after the extension is installed
-    // current limitation: this detects any navigation change, not just from one video to another video

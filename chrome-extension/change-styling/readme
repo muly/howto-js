@@ -1,0 +1,2 @@
+to change the color of any webpage: add the css in styles.css
+to restrict the change to apply to specific websites, adjust the matches field of content_scripts object in the manifest.json

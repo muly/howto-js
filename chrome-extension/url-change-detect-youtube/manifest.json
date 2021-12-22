@@ -1,0 +1,10 @@
+{
+    "name": "detects youtube video change",
+    "version": "0.1",
+    "manifest_version": 2,
+    "content_scripts": [{
+        "matches": ["*://www.youtube.com/*"],
+        "js":["script.js"],
+        "run_at": "document_start"
+    }]
+  }

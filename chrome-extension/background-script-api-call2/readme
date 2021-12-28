@@ -1,0 +1,16 @@
+demonstrates:
+1. background script makes api call using fetch() or something similar and log the response.
+
+
+curl -i -X GET https://youtubeapi-336109.ue.r.appspot.com/check/Cdup8kgw6qU
+
+HTTP/2 200 
+content-type: text/plain; charset=utf-8
+access-control-allow-origin: *
+x-cloud-trace-context: d90679c75fa0b7d059ebf4a2f44ea960;o=1
+date: Tue, 28 Dec 2021 21:55:03 GMT
+server: Google Frontend
+content-length: 17
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+
+{"allowed":true}

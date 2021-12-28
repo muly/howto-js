@@ -1,0 +1,8 @@
+demonstrates:
+1. background script makes api call using fetch() or something similar and log the response.
+
+
+see api.go for api side implementation that worked with this demonstration
+
+
+

@@ -1,0 +1,6 @@
+demonstrates: messaging from background script to content script
+1. background script triggers the message
+2. content script receives the message and
+3. then the content script responds back to background script with data
+
+ref: https://www.youtube.com/watch?v=ew9ut7ixIlI

@@ -1,4 +1,4 @@
-demonstrates:
+demonstrates: messaging from content script to background script
 1. content script sends message to background script
 2. then the background script receives the message and 
 3. then the background script sends data back to content script

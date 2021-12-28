@@ -1,0 +1,2 @@
+demonstrates:
+1. background script makes api call using fetch() or something similar and log the response.

@@ -1,0 +1,21 @@
+demonstrates: messaging from content script to background script
+1. content script sends message to background script
+2. then the background script receives the message and 
+3. background script make an external api call, received the response and 
+4. then the background script sends that api response back to content script
+5. then the content script successfully processes and print/log an element in the received json response
+
+
+below is the api used to call in this extension and the response for this api (when made call from curl)
+curl -i -X GET https://youtubeapi-336109.ue.r.appspot.com/check/Cdup8kgw6qU
+
+HTTP/2 200 
+content-type: text/plain; charset=utf-8
+access-control-allow-origin: *
+x-cloud-trace-context: d90679c75fa0b7d059ebf4a2f44ea960;o=1
+date: Tue, 28 Dec 2021 21:55:03 GMT
+server: Google Frontend
+content-length: 17
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+
+{"allowed":true}

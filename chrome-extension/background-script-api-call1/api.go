@@ -11,7 +11,7 @@ func main() {
 		w.Header().Add("Access-Control-Allow-Origin","*")
 		w.Write([]byte(`{"message":"Hello World!"}`))
 	})
-	http.ListenAndServe(":8080", nil)
+	http.ListenAndServe(":8080", nil) 
 }
 
 
